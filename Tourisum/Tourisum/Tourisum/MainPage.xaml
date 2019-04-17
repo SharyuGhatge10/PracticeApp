@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Tourisum"
+             x:Class="Tourisum.MainPage"
+             xmlns:controls="clr-namespace:Xamd.ImageCarousel.Forms.Plugin.Abstractions;assembly=Xamd.ImageCarousel.Forms.Plugin.Abstractions"
+              xmlns:forms="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             BackgroundImage="index15.jfif"
+             NavigationPage.HasNavigationBar="False">
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>-->
+
+    <!--<forms:CarouselViewControl x:Name="myCorouselView" 
+                                   ShowIndicators="True"
+                                   ShowArrows="True"
+                                   Grid.Row="0"
+                                   BackgroundColor="White">
+            <forms:CarouselViewControl.ItemTemplate>
+                <DataTemplate>
+                    <Image Source="{Binding .}" 
+                           HorizontalOptions="FillAndExpand"/>
+                </DataTemplate>
+            </forms:CarouselViewControl.ItemTemplate>
+        </forms:CarouselViewControl>-->
+
+    <StackLayout 
+                  VerticalOptions="EndAndExpand">
+        <!--Padding="55,30,55,30"-->
+
+        <Button Text="Sign in"
+                    TextColor="#9399A9"
+                    BorderRadius="30"
+                    Margin="55,30,55,30"
+                    Clicked="MainPageSigninButton_Clicked">
+        </Button>
+        <Button Text="Register"
+                    TextColor="#9399A9" 
+                    BorderRadius="30"
+                    Margin="55,30,55,30"
+                    Clicked="MainPageRegisterButton_Clicked">
+        </Button>
+        <BoxView HeightRequest="30"/>
+    </StackLayout>
+
+    <!--</Grid>-->
+</ContentPage>

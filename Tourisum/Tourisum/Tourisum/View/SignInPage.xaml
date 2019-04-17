@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tourisum.View.SignInPage"
+             Title="Sign in"
+             NavigationPage.HasBackButton="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#9ccc65">
+
+            <StackLayout Margin="30,60,30,60">
+                <Frame CornerRadius="10"
+                   Padding="5"
+                   HasShadow="False" 
+                   BackgroundColor="#aed581">
+                    <Frame.Margin>
+                        <OnPlatform x:TypeArguments="Thickness"
+                                Android="10,0,10,0"
+                                iOS="10"/>
+                    </Frame.Margin>
+                    <StackLayout>
+                        <Label Text="UserName" />
+                        <Entry x:Name="SignInName" Text="{Binding SignInName}"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame CornerRadius="10"
+                   Padding="5"
+                   HasShadow="False"
+                   BackgroundColor="#aed581">
+                    <Frame.Margin>
+                        <OnPlatform x:TypeArguments="Thickness"
+                                Android="10,0,10,0"
+                                iOS="10"/>
+                    </Frame.Margin>
+                    <StackLayout>
+                        <Label Text="Password" />
+                        <Entry x:Name="SigninPAssword" Text="{Binding SigninPAssword}"/>
+                    </StackLayout>
+                </Frame>
+                <Button Text="Sign In"
+                    BackgroundColor="#222A3F" 
+                    TextColor="White"
+                    BorderRadius="30"
+                    Margin="10,20,10,20"
+                    Command="{Binding SignInPageButton_Clicked}">
+                </Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

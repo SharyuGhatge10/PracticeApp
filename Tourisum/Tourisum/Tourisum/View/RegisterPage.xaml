@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tourisum.View.RegisterPage"
+             Title="Register"
+             NavigationPage.HasBackButton="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#883997" >
+            <StackLayout Margin="10,40,10,20">
+                <Frame CornerRadius="10"
+                   Padding="5"
+                   HasShadow="False"
+                   BackgroundColor="#ba68c8">
+                    <Frame.Margin>
+                        <OnPlatform x:TypeArguments="Thickness"
+                                    Android="10,0,10,0"
+                                    iOS="10"/>
+                    </Frame.Margin>
+                    <StackLayout>
+                        <Label Text="Full Name" />
+                        <Entry x:Name="Name" Text="{Binding registerName}"/> <!--TextChanged="Name_TextChanged"--> 
+                    </StackLayout>
+                </Frame>
+
+                <Frame CornerRadius="10"
+                   Padding="5"
+                   HasShadow="False"
+                   BackgroundColor="#ba68c8">
+                    <Frame.Margin>
+                        <OnPlatform x:TypeArguments="Thickness"
+                                Android="10,0,10,0"
+                                iOS="10"/>
+                    </Frame.Margin>
+
+                    <StackLayout>
+                        <Label Text="Date Of Birth"  />
+                        <DatePicker  x:Name="dob"
+                                     Date="{Binding registerDOB , Mode=TwoWay}"/>
+
+                    </StackLayout>
+                </Frame>
+
+                <Frame CornerRadius="10"
+                   Padding="5"
+                   HasShadow="False"
+                   BackgroundColor="#ce93d8">
+                    <Frame.Margin>
+                        <OnPlatform x:TypeArguments="Thickness"
+                                Android="10,0,10,0"
+                                iOS="10"/>
+                    </Frame.Margin>
+                    <StackLayout>
+                        <Label Text="Email" />
+                        <Entry Keyboard="Email" x:Name="Email" Text="{Binding registerEmail}" /><!--TextChanged="Email_TextChanged"-->
+                    </StackLayout>
+                </Frame>
+
+                <Frame CornerRadius="10"
+                   Padding="5"
+                   HasShadow="False"
+                   BackgroundColor="#ce93d8">
+                    <Frame.Margin>
+                        <OnPlatform x:TypeArguments="Thickness"
+                                Android="10,0,10,0"
+                                iOS="10"/>
+                    </Frame.Margin>
+                    <StackLayout>
+                        <Label Text="Phone Number" />
+                        <Entry Keyboard="Numeric" x:Name="PhoneNumber" Text="{Binding registerPhoneNumber}" /> <!--TextChanged="PhoneNumber_TextChanged"/>-->
+                    </StackLayout>
+                </Frame>
+
+                <Frame CornerRadius="10"
+                   Padding="5"
+                   HasShadow="False"
+                   BackgroundColor="#e1bee7">
+                    <Frame.Margin>
+                        <OnPlatform x:TypeArguments="Thickness"
+                                Android="10,0,10,0"
+                                iOS="10"/>
+                    </Frame.Margin>
+                    <StackLayout>
+                        <Label Text="Password" />
+                        <Entry x:Name="Password" Text="{Binding registerPassword}" /> <!--TextChanged="PhoneNumber_TextChanged"/>-->
+                    </StackLayout>
+                </Frame>
+                <Button Text="Register"
+                    BackgroundColor="#222A3F" 
+                    TextColor="White"
+                    BorderRadius="30"
+                    Margin="10,20,10,20"
+                    Command="{Binding RegisterPageButtonCommand}">
+                </Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

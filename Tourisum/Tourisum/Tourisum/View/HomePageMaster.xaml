@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tourisum.View.HomePageMaster"
+             Title="Master">
+    <StackLayout>
+        <ListView x:Name="MenuItemsListView"
+              HasUnevenRows="true"
+              ItemsSource="{Binding menuPageContents}">
+            <ListView.Header>
+                <Grid BackgroundColor="#222A3F" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label Text="Tourisum"
+                           TextColor="White"
+                           VerticalOptions="EndAndExpand"
+                           VerticalTextAlignment="End"
+                           HorizontalTextAlignment="Center"
+                           FontSize="Large"
+                           Grid.Row="2"/> <!--Margin="0,0,0,80"-->
+                </Grid>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding _MenuPageContentlImage}"></Image>
+                                <Label Text="{Binding _MenuPageContentlLabel}" 
+                                       HorizontalTextAlignment="Center" 
+                                       VerticalTextAlignment="Center">
+                                </Label>
+                            </StackLayout>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

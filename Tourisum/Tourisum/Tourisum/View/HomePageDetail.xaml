@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tourisum.View.HomePageDetail"
+             Title="Detail"
+             xmlns:forms="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             xmlns:controls="clr-namespace:SuaveControls.Views;assembly=SuaveControls.FloatingActionButton">
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="5*"/>
+            <!--<RowDefinition Height="2*"/>-->
+        </Grid.RowDefinitions>
+        <forms:CarouselViewControl x:Name="CaroselView"
+                                   ShowArrows="True"
+                                   ShowIndicators="True"
+                                   Grid.Row="0"
+                                   BackgroundColor="White">
+            <forms:CarouselViewControl.ItemTemplate>
+                <DataTemplate>
+                    <Image Source="{Binding .}"
+                           HorizontalOptions="FillAndExpand"
+                           VerticalOptions="FillAndExpand"/>
+                </DataTemplate>
+            </forms:CarouselViewControl.ItemTemplate>
+        </forms:CarouselViewControl>
+
+        <AbsoluteLayout BackgroundColor="Bisque" Grid.Row="1">
+            <ScrollView>
+            <StackLayout >
+                <ListView HasUnevenRows="False"
+                          x:Name="BokkingDetailsList"
+                          ItemsSource="{Binding ListofBookings}">
+                    <ListView.Header >
+                        <StackLayout>
+                            <Label Text="Booking details : " FontAttributes="Bold"/>
+                        </StackLayout>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Vertical">
+                                    <!--<Label Text="Boarding :" FontAttributes="Bold"/>
+                                    <Label Text="Destination : " FontAttributes="Bold"/>
+                                    <Label Text="Date : " FontAttributes="Bold"/>-->
+                                    <Label Text="{Binding Boarding}"/>
+                                    <Label Text="{Binding Departure}"/>
+                                    <Label Text="{Binding Days}"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            </ScrollView>
+            <controls:FloatingActionButton 
+                x:Name="FAB"
+                WidthRequest="100" 
+                HeightRequest="100"
+                Image="FB.png"
+                Margin="250,200,10,10"
+                Clicked="FAB_Clicked"/>
+        </AbsoluteLayout>
+        <!--<StackLayout Grid.Row="2" BackgroundColor="Gray" >
+            
+        </StackLayout>-->
+    </Grid>
+</ContentPage>

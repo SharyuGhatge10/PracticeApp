@@ -1,0 +1,202 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "5ac0e0a5b2999c75642688d307fedfa196c34e4f"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Tourisum/1.0.0": {
+        "dependencies": {
+          "CarouselView.FormsPlugin": "5.2.0",
+          "NETStandard.Library": "2.0.3",
+          "SuaveControls.FloatingActionButton": "2018.1.5",
+          "Xamarin.Forms": "2.5.1.527436",
+          "Xamarin.Forms.CarouselView": "2.3.0-pre2",
+          "Xamd.Plugins.Forms.ImageCarousel": "1.0.2",
+          "sqlite-net-pcl": "1.5.231"
+        },
+        "runtime": {
+          "Tourisum.dll": {}
+        }
+      },
+      "CarouselView.FormsPlugin/5.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "sqlite-net-pcl/1.5.231": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.bundle_green": "1.1.11"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {
+            "assemblyVersion": "1.5.231.0",
+            "fileVersion": "1.5.231.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.11": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.core": "1.1.11"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/1.1.11": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SuaveControls.FloatingActionButton/2018.1.5": {
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/SuaveControls.FloatingActionButton.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms/2.5.1.527436": {
+        "runtime": {
+          "lib/netstandard1.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard1.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+        "dependencies": {
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamd.Plugins.Forms.ImageCarousel/1.0.2": {
+        "dependencies": {
+          "Xamarin.Forms": "2.5.1.527436"
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamd.ImageCarousel.Forms.Plugin.Abstractions.dll": {
+            "assemblyVersion": "1.0.5745.25329",
+            "fileVersion": "1.0.5745.25329"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tourisum/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CarouselView.FormsPlugin/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h849lqz0wvmpyiXqCrN7EW+cCGqK5chcefCfS55CkoGMMQx238QWNknUTOl/CvIdZ4bgs0Oztb7kamYXDlQ5mQ==",
+      "path": "carouselview.formsplugin/5.2.0",
+      "hashPath": "carouselview.formsplugin.5.2.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "sqlite-net-pcl/1.5.231": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B9jScvqkishSMkpa9Mc4Q85LTHxRTzcUXZx9EQqgrvdz7MFEDHfpiPcKdjy1qXHdmHttEXfY4h6gu4FlgWP2Sw==",
+      "path": "sqlite-net-pcl/1.5.231",
+      "hashPath": "sqlite-net-pcl.1.5.231.nupkg.sha512"
+    },
+    "SQLitePCLRaw.bundle_green/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hqp8IF/RLjbypkLm+t+1RqAX8EKuWEkj7wkLXplfENQoPnE127cvTmaDvaQKtt7a5QsD/HNjFDr1z5f9q2wdPg==",
+      "path": "sqlitepclraw.bundle_green/1.1.11",
+      "hashPath": "sqlitepclraw.bundle_green.1.1.11.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QT17CyQAQIbTCu6pW5+uVA8BXqRzquiDI1tr5Un6c1YZcQydPmGPuYYng9xMs2UHUDYHbTu+JDkp55WR+qo9bQ==",
+      "path": "sqlitepclraw.core/1.1.11",
+      "hashPath": "sqlitepclraw.core.1.1.11.nupkg.sha512"
+    },
+    "SuaveControls.FloatingActionButton/2018.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OTad3J+U+ZMFM3lIWnkNhWB3SZgcV7wBEjHk2SBbmdyRJBNI1dEr3DACZIKBBJOlcUxRPUaficxMjVhSN827/g==",
+      "path": "suavecontrols.floatingactionbutton/2018.1.5",
+      "hashPath": "suavecontrols.floatingactionbutton.2018.1.5.nupkg.sha512"
+    },
+    "Xamarin.Forms/2.5.1.527436": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e21SsrialCU+y7WDDy8NVC1FrJr3YFFLqxMF/KNjVK8fNXZku4quB7+F/NyGevzthSxSd4kF9YWhhB74RIh6PA==",
+      "path": "xamarin.forms/2.5.1.527436",
+      "hashPath": "xamarin.forms.2.5.1.527436.nupkg.sha512"
+    },
+    "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+xxUr80PHBiYkrBQQ4oXYm9Xi9lUSwhVzIeoGuSOc37LkoC83grG3irOpw0tevtfMIzS109QAJ7pNULq6evjgQ==",
+      "path": "xamarin.forms.carouselview/2.3.0-pre2",
+      "hashPath": "xamarin.forms.carouselview.2.3.0-pre2.nupkg.sha512"
+    },
+    "Xamd.Plugins.Forms.ImageCarousel/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wl6A/GZ3sZUEBQ+Z8RkP0wgWrd67IgpYq2e/e4adYyw4+vUr8V5AhW5MMXq4B69To/cYqI4QhFMj578aBQt5RA==",
+      "path": "xamd.plugins.forms.imagecarousel/1.0.2",
+      "hashPath": "xamd.plugins.forms.imagecarousel.1.0.2.nupkg.sha512"
+    }
+  }
+}
