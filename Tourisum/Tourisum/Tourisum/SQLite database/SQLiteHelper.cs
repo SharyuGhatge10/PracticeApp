@@ -56,9 +56,9 @@ namespace Tourisum.SQLite_database
         //Read Item  
         public async Task<UserDetails> GetUserAsync(string UserName)
         {
-            UserDetails user = new UserDetails();
-            user = await db.Table<UserDetails>().Where(i => i.userName == UserName).FirstOrDefaultAsync();
-            return user;
+            UserDetails userdb = new UserDetails();
+            userdb = await db.Table<UserDetails>().Where(i => i.userName == UserName).FirstOrDefaultAsync();
+            return userdb;
         }
     }
 }

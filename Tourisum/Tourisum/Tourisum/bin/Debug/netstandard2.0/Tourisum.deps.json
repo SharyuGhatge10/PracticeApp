@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "5ac0e0a5b2999c75642688d307fedfa196c34e4f"
+    "signature": "ed2b4d27e93f11e4ef3515e4af1fc114a0282a69"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,9 +9,11 @@
     ".NETStandard,Version=v2.0/": {
       "Tourisum/1.0.0": {
         "dependencies": {
+          "Acr.UserDialogs": "7.0.4",
           "CarouselView.FormsPlugin": "5.2.0",
           "NETStandard.Library": "2.0.3",
           "SuaveControls.FloatingActionButton": "2018.1.5",
+          "Xam.Plugins.Settings": "3.1.1",
           "Xamarin.Forms": "2.5.1.527436",
           "Xamarin.Forms.CarouselView": "2.3.0-pre2",
           "Xamd.Plugins.Forms.ImageCarousel": "1.0.2",
@@ -19,6 +21,14 @@
         },
         "runtime": {
           "Tourisum.dll": {}
+        }
+      },
+      "Acr.UserDialogs/7.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CarouselView.FormsPlugin/5.2.0": {
@@ -82,6 +92,21 @@
           }
         }
       },
+      "Xam.Plugins.Settings/3.1.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Settings.Abstractions.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          },
+          "lib/netstandard1.0/Plugin.Settings.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
       "Xamarin.Forms/2.5.1.527436": {
         "runtime": {
           "lib/netstandard1.0/Xamarin.Forms.Core.dll": {
@@ -127,6 +152,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Acr.UserDialogs/7.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wmeQhteQymYgTwDPSxfuLlWP8qkXKSCcMB0UNQi/SXl4/vvqwzsX3uP5A7kYzxsbthuFWau3Ni0ZyCL7pyb5Fw==",
+      "path": "acr.userdialogs/7.0.4",
+      "hashPath": "acr.userdialogs.7.0.4.nupkg.sha512"
     },
     "CarouselView.FormsPlugin/5.2.0": {
       "type": "package",
@@ -176,6 +208,13 @@
       "sha512": "sha512-OTad3J+U+ZMFM3lIWnkNhWB3SZgcV7wBEjHk2SBbmdyRJBNI1dEr3DACZIKBBJOlcUxRPUaficxMjVhSN827/g==",
       "path": "suavecontrols.floatingactionbutton/2018.1.5",
       "hashPath": "suavecontrols.floatingactionbutton.2018.1.5.nupkg.sha512"
+    },
+    "Xam.Plugins.Settings/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bu7xx61R2xnH+vY0LyFWiDNfuS25OWR3n9Yu3Gdutpgy7T7F/c1JieptS6YxRzz4WXJzaj0ACz/zQ0OwDiyIvw==",
+      "path": "xam.plugins.settings/3.1.1",
+      "hashPath": "xam.plugins.settings.3.1.1.nupkg.sha512"
     },
     "Xamarin.Forms/2.5.1.527436": {
       "type": "package",

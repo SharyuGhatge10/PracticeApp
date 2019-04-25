@@ -8,6 +8,7 @@ namespace Tourisum.Model
         [AutoIncrement , PrimaryKey]
         public int userID { get; set; }
         public string userName { get; set; }
+        public string userGender { get; set; }
         public DateTime userDateOfBIrth { get; set; }
         public string userEmail { get; set; }
         public double userPhoneNo { get; set; }

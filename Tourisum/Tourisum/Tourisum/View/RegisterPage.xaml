@@ -5,6 +5,7 @@
              Title="Register"
              NavigationPage.HasBackButton="False">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout BackgroundColor="#883997" >
             <StackLayout Margin="10,40,10,20">
                 <Frame CornerRadius="10"
@@ -18,7 +19,33 @@
                     </Frame.Margin>
                     <StackLayout>
                         <Label Text="Full Name" />
-                        <Entry x:Name="Name" Text="{Binding registerName}"/> <!--TextChanged="Name_TextChanged"--> 
+                        <Entry x:Name="Name" 
+                               Text="{Binding registerName}"
+                               Completed="Name_Completed">
+                        </Entry>
+                        <!--TextChanged="Name_TextChanged"--> 
+                    </StackLayout>
+                </Frame>
+
+                <Frame CornerRadius="10"
+                   Padding="5"
+                   HasShadow="False"
+                   BackgroundColor="#ba68c8">
+                        <Frame.Margin>
+                            <OnPlatform x:TypeArguments="Thickness"
+                                Android="10,0,10,0"
+                                iOS="10"/>
+                        </Frame.Margin>
+                        <StackLayout>
+                        <Label Text="Gender"/>
+                            <Picker Title="Select gender" SelectedItem="{Binding RegisterGender}" >
+                            <Picker.Items>
+                                <x:String>Male</x:String>
+                                <x:String>Female</x:String>
+                                <x:String>Others</x:String>
+                                <x:String>None</x:String>
+                            </Picker.Items>
+                        </Picker>
                     </StackLayout>
                 </Frame>
 
@@ -93,5 +120,6 @@
                 </Button>
             </StackLayout>
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

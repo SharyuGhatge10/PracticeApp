@@ -1,16 +1,19 @@
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\bin\Debug\netstandard2.0\Tourisum.deps.json
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\bin\Debug\netstandard2.0\Tourisum.dll
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\bin\Debug\netstandard2.0\Tourisum.pdb
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.csproj.CoreCompileInputs.cache
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.App.xaml.g.cs
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.MainPage.xaml.g.cs
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.View.HomePage.xaml.g.cs
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.View.HomePageDetail.xaml.g.cs
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.View.HomePageMaster.xaml.g.cs
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.View.MenuPage.xaml.g.cs
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.View.RegisterPage.xaml.g.cs
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.View.SignInPage.xaml.g.cs
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.AssemblyInfoInputs.cache
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.AssemblyInfo.cs
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.dll
-C:\Sharyu A and D\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.pdb
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\bin\Debug\netstandard2.0\Tourisum.deps.json
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\bin\Debug\netstandard2.0\Tourisum.dll
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\bin\Debug\netstandard2.0\Tourisum.pdb
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.csprojAssemblyReference.cache
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.csproj.CoreCompileInputs.cache
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.App.xaml.g.cs
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.MainPage.xaml.g.cs
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.View.HomePage.xaml.g.cs
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.View.HomePageDetail.xaml.g.cs
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.View.HomePageMaster.xaml.g.cs
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.View.LogoutPage.xaml.g.cs
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.View.MenuPage.xaml.g.cs
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.View.ProfilePage.xaml.g.cs
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.View.RegisterPage.xaml.g.cs
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.View.SignInPage.xaml.g.cs
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.AssemblyInfoInputs.cache
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.AssemblyInfo.cs
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.dll
+C:\Users\sharyu ghatge\Desktop\GitHub\PracticeApp\PracticeApp\Tourisum\Tourisum\Tourisum\obj\Debug\netstandard2.0\Tourisum.pdb

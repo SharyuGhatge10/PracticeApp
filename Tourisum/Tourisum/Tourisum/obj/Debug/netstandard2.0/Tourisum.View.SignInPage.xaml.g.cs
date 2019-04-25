@@ -11,7 +11,8 @@
 namespace Tourisum.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Sharyu A and D\\Tourisum\\Tourisum\\Tourisum\\View\\SignInPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\sharyu ghatge\\Desktop\\GitHub\\PracticeApp\\PracticeApp\\Tourisum\\Tourisum\\T" +
+        "ourisum\\View\\SignInPage.xaml")]
     public partial class SignInPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

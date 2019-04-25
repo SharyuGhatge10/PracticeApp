@@ -13,12 +13,18 @@ namespace Tourisum.View
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class RegisterPage : ContentPage
 	{
-		public RegisterPage ()
+        public bool IsChecked { get; set; }
+        public RegisterPage ()
 		{
 			InitializeComponent ();
 
             var viewModel = new RegisterViewModel();
             this.BindingContext = viewModel;
+        }
+
+        private void Name_Completed(object sender, EventArgs e)
+        {
+            IsChecked = true;
         }
 
         //private void Name_TextChanged(object sender, TextChangedEventArgs e)

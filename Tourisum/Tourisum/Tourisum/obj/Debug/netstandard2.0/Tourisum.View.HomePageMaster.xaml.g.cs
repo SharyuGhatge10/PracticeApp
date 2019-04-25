@@ -11,7 +11,8 @@
 namespace Tourisum.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Sharyu A and D\\Tourisum\\Tourisum\\Tourisum\\View\\HomePageMaster.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\sharyu ghatge\\Desktop\\GitHub\\PracticeApp\\PracticeApp\\Tourisum\\Tourisum\\T" +
+        "ourisum\\View\\HomePageMaster.xaml")]
     public partial class HomePageMaster : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

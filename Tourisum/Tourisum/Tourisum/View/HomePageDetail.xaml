@@ -59,7 +59,7 @@
                 WidthRequest="100" 
                 HeightRequest="100"
                 Image="FB.png"
-                Margin="250,200,10,10"
+                Margin="280,200,10,10"
                 Clicked="FAB_Clicked"/>
         </AbsoluteLayout>
         <!--<StackLayout Grid.Row="2" BackgroundColor="Gray" >

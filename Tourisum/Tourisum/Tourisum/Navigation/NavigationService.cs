@@ -20,9 +20,13 @@ namespace Tourisum.Navigation
 
         private Dictionary<string, Type> _pages = new Dictionary<string, Type>
         {
-            {"HomePage", typeof(HomePage)},
             {"RegisterPage", typeof(RegisterPage) },
             {"SignInPage", typeof(SignInPage) },
+            {"HomePage", typeof(HomePage) },
+            {"HomePageMaster" , typeof(HomePageMaster) },
+            {"HomePageDetail", typeof(HomePageDetail) },
+            {"LogoutPage" , typeof(LogoutPage) },
+            {"ProfilePage", typeof(ProfilePage) }
         };
 
         public void Configure(string pageKey, Type pageType)
@@ -194,9 +198,15 @@ namespace Tourisum.Navigation
         {
             var pageType = _pages.ContainsKey(pageKey) ? _pages[pageKey] : null; //GetPage(pageKey, parameter);
             if (pageType == null) return;
-            var page = Activator.CreateInstance(pageType) as Page;
+            Page page = null;
+
+             page = parameter == null 
+                ? Activator.CreateInstance(pageType) as Page
+                : GetPage(pageKey, parameter);
+          
             currentPageKey = pageKey;
             await App.Current.MainPage.Navigation.PushAsync(page, animated);
+
         }
 
         public async Task PopAsync(bool animated)

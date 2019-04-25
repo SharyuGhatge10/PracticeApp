@@ -26,6 +26,43 @@ namespace Tourisum.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::AndroidHUD.Resource.Attribute.ahBarColor = global::Tourisum.Droid.Resource.Attribute.ahBarColor;
+			global::AndroidHUD.Resource.Attribute.ahBarLength = global::Tourisum.Droid.Resource.Attribute.ahBarLength;
+			global::AndroidHUD.Resource.Attribute.ahBarWidth = global::Tourisum.Droid.Resource.Attribute.ahBarWidth;
+			global::AndroidHUD.Resource.Attribute.ahCircleColor = global::Tourisum.Droid.Resource.Attribute.ahCircleColor;
+			global::AndroidHUD.Resource.Attribute.ahDelayMillis = global::Tourisum.Droid.Resource.Attribute.ahDelayMillis;
+			global::AndroidHUD.Resource.Attribute.ahRadius = global::Tourisum.Droid.Resource.Attribute.ahRadius;
+			global::AndroidHUD.Resource.Attribute.ahRimColor = global::Tourisum.Droid.Resource.Attribute.ahRimColor;
+			global::AndroidHUD.Resource.Attribute.ahRimWidth = global::Tourisum.Droid.Resource.Attribute.ahRimWidth;
+			global::AndroidHUD.Resource.Attribute.ahSpinSpeed = global::Tourisum.Droid.Resource.Attribute.ahSpinSpeed;
+			global::AndroidHUD.Resource.Attribute.ahText = global::Tourisum.Droid.Resource.Attribute.ahText;
+			global::AndroidHUD.Resource.Attribute.ahTextColor = global::Tourisum.Droid.Resource.Attribute.ahTextColor;
+			global::AndroidHUD.Resource.Attribute.ahTextSize = global::Tourisum.Droid.Resource.Attribute.ahTextSize;
+			global::AndroidHUD.Resource.Drawable.ic_errorstatus = global::Tourisum.Droid.Resource.Drawable.ic_errorstatus;
+			global::AndroidHUD.Resource.Drawable.ic_successstatus = global::Tourisum.Droid.Resource.Drawable.ic_successstatus;
+			global::AndroidHUD.Resource.Drawable.roundedbg = global::Tourisum.Droid.Resource.Drawable.roundedbg;
+			global::AndroidHUD.Resource.Drawable.roundedbgdark = global::Tourisum.Droid.Resource.Drawable.roundedbgdark;
+			global::AndroidHUD.Resource.Id.loadingImage = global::Tourisum.Droid.Resource.Id.loadingImage;
+			global::AndroidHUD.Resource.Id.loadingProgressBar = global::Tourisum.Droid.Resource.Id.loadingProgressBar;
+			global::AndroidHUD.Resource.Id.loadingProgressWheel = global::Tourisum.Droid.Resource.Id.loadingProgressWheel;
+			global::AndroidHUD.Resource.Id.textViewStatus = global::Tourisum.Droid.Resource.Id.textViewStatus;
+			global::AndroidHUD.Resource.Layout.loading = global::Tourisum.Droid.Resource.Layout.loading;
+			global::AndroidHUD.Resource.Layout.loadingimage = global::Tourisum.Droid.Resource.Layout.loadingimage;
+			global::AndroidHUD.Resource.Layout.loadingprogress = global::Tourisum.Droid.Resource.Layout.loadingprogress;
+			global::AndroidHUD.Resource.String.library_name = global::Tourisum.Droid.Resource.String.library_name;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel = global::Tourisum.Droid.Resource.Styleable.ProgressWheel;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarColor = global::Tourisum.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarLength = global::Tourisum.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarWidth = global::Tourisum.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahCircleColor = global::Tourisum.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahDelayMillis = global::Tourisum.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRadius = global::Tourisum.Droid.Resource.Styleable.ProgressWheel_ahRadius;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimColor = global::Tourisum.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimWidth = global::Tourisum.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::Tourisum.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::Tourisum.Droid.Resource.Styleable.ProgressWheel_ahText;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::Tourisum.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::Tourisum.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
 			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_fade_in = global::Tourisum.Droid.Resource.Animation.abc_fade_in;
 			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_fade_out = global::Tourisum.Droid.Resource.Animation.abc_fade_out;
 			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::Tourisum.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -3968,6 +4005,42 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F040022
 			public const int activityChooserViewStyle = 2130968610;
 			
+			// aapt resource value: 0x7F080005
+			public const int ahBarColor = 2131230725;
+			
+			// aapt resource value: 0x7F080013
+			public const int ahBarLength = 2131230739;
+			
+			// aapt resource value: 0x7F080012
+			public const int ahBarWidth = 2131230738;
+			
+			// aapt resource value: 0x7F080010
+			public const int ahCircleColor = 2131230736;
+			
+			// aapt resource value: 0x7F080009
+			public const int ahDelayMillis = 2131230729;
+			
+			// aapt resource value: 0x7F080011
+			public const int ahRadius = 2131230737;
+			
+			// aapt resource value: 0x7F080006
+			public const int ahRimColor = 2131230726;
+			
+			// aapt resource value: 0x7F080007
+			public const int ahRimWidth = 2131230727;
+			
+			// aapt resource value: 0x7F080008
+			public const int ahSpinSpeed = 2131230728;
+			
+			// aapt resource value: 0x7F080002
+			public const int ahText = 2131230722;
+			
+			// aapt resource value: 0x7F080003
+			public const int ahTextColor = 2131230723;
+			
+			// aapt resource value: 0x7F080004
+			public const int ahTextSize = 2131230724;
+			
 			// aapt resource value: 0x7F040023
 			public const int alertDialogButtonGroupStyle = 2130968611;
 			
@@ -4949,32 +5022,32 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F040150
 			public const int voiceIcon = 2130968912;
 			
-			// aapt resource value: 0x7F090003
-			public const int vpiCentered = 2131296259;
+			// aapt resource value: 0x7F080015
+			public const int vpiCentered = 2131230741;
 			
-			// aapt resource value: 0x7F090002
-			public const int vpiCirclePageIndicatorStyle = 2131296258;
+			// aapt resource value: 0x7F080014
+			public const int vpiCirclePageIndicatorStyle = 2131230740;
 			
-			// aapt resource value: 0x7F090008
-			public const int vpiFillColor = 2131296264;
+			// aapt resource value: 0x7F080020
+			public const int vpiFillColor = 2131230752;
 			
-			// aapt resource value: 0x7F090005
-			public const int vpiOrientation = 2131296261;
+			// aapt resource value: 0x7F080017
+			public const int vpiOrientation = 2131230743;
 			
-			// aapt resource value: 0x7F090004
-			public const int vpiPageColor = 2131296260;
+			// aapt resource value: 0x7F080016
+			public const int vpiPageColor = 2131230742;
 			
-			// aapt resource value: 0x7F090007
-			public const int vpiRadius = 2131296263;
+			// aapt resource value: 0x7F080019
+			public const int vpiRadius = 2131230745;
 			
-			// aapt resource value: 0x7F090006
-			public const int vpiSnap = 2131296262;
+			// aapt resource value: 0x7F080018
+			public const int vpiSnap = 2131230744;
 			
-			// aapt resource value: 0x7F090009
-			public const int vpiStrokeColor = 2131296265;
+			// aapt resource value: 0x7F080021
+			public const int vpiStrokeColor = 2131230753;
 			
-			// aapt resource value: 0x7F090010
-			public const int vpiStrokeWidth = 2131296272;
+			// aapt resource value: 0x7F080022
+			public const int vpiStrokeWidth = 2131230754;
 			
 			// aapt resource value: 0x7F040151
 			public const int windowActionBar = 2130968913;
@@ -6174,6 +6247,9 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F090055
 			public const int avd_show_password = 2131296341;
 			
+			// aapt resource value: 0x7F010002
+			public const int booking1 = 2130771970;
+			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
 			
@@ -6192,14 +6268,14 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010013
-			public const int Down = 2130771987;
-			
-			// aapt resource value: 0x7F010002
-			public const int FB = 2130771970;
+			// aapt resource value: 0x7F010022
+			public const int Down = 2130772002;
 			
 			// aapt resource value: 0x7F010003
-			public const int icon = 2130771971;
+			public const int FB = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int icon = 2130771972;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -6212,6 +6288,9 @@ namespace Tourisum.Droid
 			
 			// aapt resource value: 0x7F090057
 			public const int ic_dialog_close_light = 2131296343;
+			
+			// aapt resource value: 0x7F010020
+			public const int ic_errorstatus = 2130772000;
 			
 			// aapt resource value: 0x7F090058
 			public const int ic_group_collapse_00 = 2131296344;
@@ -6714,6 +6793,9 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F0900FE
 			public const int ic_mr_button_grey = 2131296510;
 			
+			// aapt resource value: 0x7F010021
+			public const int ic_successstatus = 2130772001;
+			
 			// aapt resource value: 0x7F0900FF
 			public const int ic_vol_type_speaker_dark = 2131296511;
 			
@@ -6732,26 +6814,29 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010004
-			public const int images3 = 2130771972;
-			
 			// aapt resource value: 0x7F010005
-			public const int images4 = 2130771973;
+			public const int images3 = 2130771973;
 			
 			// aapt resource value: 0x7F010006
-			public const int index1 = 2130771974;
+			public const int images4 = 2130771974;
 			
 			// aapt resource value: 0x7F010007
-			public const int index11 = 2130771975;
+			public const int index1 = 2130771975;
 			
 			// aapt resource value: 0x7F010008
-			public const int index15 = 2130771976;
+			public const int index11 = 2130771976;
 			
 			// aapt resource value: 0x7F010009
-			public const int index18 = 2130771977;
+			public const int index15 = 2130771977;
 			
 			// aapt resource value: 0x7F010010
-			public const int index2 = 2130771984;
+			public const int index18 = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int index2 = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int logout1 = 2130771986;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -6816,8 +6901,8 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
 			
-			// aapt resource value: 0x7F010014
-			public const int Next = 2130771988;
+			// aapt resource value: 0x7F010023
+			public const int Next = 2130772003;
 			
 			// aapt resource value: 0x7F090001
 			public const int notification_action_background = 2131296257;
@@ -6855,14 +6940,29 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
+			// aapt resource value: 0x7F010013
+			public const int offers = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int places = 2130771988;
+			
+			// aapt resource value: 0x7F010024
+			public const int Prev = 2130772004;
+			
 			// aapt resource value: 0x7F010015
-			public const int Prev = 2130771989;
+			public const int profileimage = 2130771989;
 			
-			// aapt resource value: 0x7F010011
-			public const int splash1 = 2130771985;
+			// aapt resource value: 0x7F010018
+			public const int roundedbg = 2130771992;
 			
-			// aapt resource value: 0x7F010012
-			public const int splashimage = 2130771986;
+			// aapt resource value: 0x7F010019
+			public const int roundedbgdark = 2130771993;
+			
+			// aapt resource value: 0x7F010016
+			public const int services1 = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int splash1 = 2130771991;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -6870,8 +6970,8 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010016
-			public const int Up = 2130771990;
+			// aapt resource value: 0x7F010025
+			public const int Up = 2130772005;
 			
 			static Drawable()
 			{
@@ -7045,8 +7145,8 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
 			
-			// aapt resource value: 0x7F020010
-			public const int horizontal = 2130837520;
+			// aapt resource value: 0x7F020014
+			public const int horizontal = 2130837524;
 			
 			// aapt resource value: 0x7F0C000A
 			public const int icon = 2131492874;
@@ -7057,8 +7157,8 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F0C0038
 			public const int image = 2131492920;
 			
-			// aapt resource value: 0x7F020009
-			public const int indicator = 2130837513;
+			// aapt resource value: 0x7F020013
+			public const int indicator = 2130837523;
 			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
@@ -7086,6 +7186,15 @@ namespace Tourisum.Droid
 			
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
+			
+			// aapt resource value: 0x7F020006
+			public const int loadingImage = 2130837510;
+			
+			// aapt resource value: 0x7F020004
+			public const int loadingProgressBar = 2130837508;
+			
+			// aapt resource value: 0x7F020007
+			public const int loadingProgressWheel = 2130837511;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -7180,11 +7289,11 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F020007
-			public const int next = 2130837511;
+			// aapt resource value: 0x7F020011
+			public const int next = 2130837521;
 			
-			// aapt resource value: 0x7F020008
-			public const int nextArrow = 2130837512;
+			// aapt resource value: 0x7F020012
+			public const int nextArrow = 2130837522;
 			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
@@ -7201,8 +7310,8 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F0C0013
 			public const int notification_main_column_container = 2131492883;
 			
-			// aapt resource value: 0x7F020004
-			public const int pager = 2130837508;
+			// aapt resource value: 0x7F020008
+			public const int pager = 2130837512;
 			
 			// aapt resource value: 0x7F0C004D
 			public const int parallax = 2131492941;
@@ -7216,11 +7325,11 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
 			
-			// aapt resource value: 0x7F020005
-			public const int prev = 2130837509;
+			// aapt resource value: 0x7F020009
+			public const int prev = 2130837513;
 			
-			// aapt resource value: 0x7F020006
-			public const int prevArrow = 2130837510;
+			// aapt resource value: 0x7F020010
+			public const int prevArrow = 2130837520;
 			
 			// aapt resource value: 0x7F0C0051
 			public const int progress_circular = 2131492945;
@@ -7363,6 +7472,9 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
+			// aapt resource value: 0x7F020005
+			public const int textViewStatus = 2130837509;
+			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
 			
@@ -7411,8 +7523,8 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
 			
-			// aapt resource value: 0x7F020011
-			public const int vertical = 2130837521;
+			// aapt resource value: 0x7F020015
+			public const int vertical = 2130837525;
 			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
@@ -7633,8 +7745,17 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
+			// aapt resource value: 0x7F030007
+			public const int horizontal_viewpager = 2130903047;
+			
 			// aapt resource value: 0x7F030004
-			public const int horizontal_viewpager = 2130903044;
+			public const int loading = 2130903044;
+			
+			// aapt resource value: 0x7F030005
+			public const int loadingimage = 2130903045;
+			
+			// aapt resource value: 0x7F030006
+			public const int loadingprogress = 2130903046;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int mr_chooser_dialog = 2131689499;
@@ -7720,8 +7841,8 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
 			
-			// aapt resource value: 0x7F030005
-			public const int vertical_viewpager = 2130903045;
+			// aapt resource value: 0x7F030008
+			public const int vertical_viewpager = 2130903048;
 			
 			static Layout()
 			{
@@ -7854,8 +7975,8 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
-			// aapt resource value: 0x7F070002
-			public const int library_name = 2131165186;
+			// aapt resource value: 0x7F090002
+			public const int library_name = 2131296258;
 			
 			// aapt resource value: 0x7F15001E
 			public const int mr_button_content_description = 2132082718;
@@ -9219,11 +9340,11 @@ namespace Tourisum.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F080058
-			public const int ActionBarLayout_android_layout_gravity = 2131230808;
+			// aapt resource value: 0x7F070071
+			public const int ActionBarLayout_android_layout_gravity = 2131165297;
 			
-			// aapt resource value: 0x7F080028
-			public const int ActionBar_background = 2131230760;
+			// aapt resource value: 0x7F070041
+			public const int ActionBar_background = 2131165249;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -9312,8 +9433,8 @@ namespace Tourisum.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F080060
-			public const int ActionMenuItemView_android_minWidth = 2131230816;
+			// aapt resource value: 0x7F070073
+			public const int ActionMenuItemView_android_minWidth = 2131165299;
 			
 			public static int[] ActionMode = new int[] {
 					2130968626,
@@ -9323,8 +9444,8 @@ namespace Tourisum.Droid
 					2130968847,
 					2130968901};
 			
-			// aapt resource value: 0x7F080062
-			public const int ActionMode_background = 2131230818;
+			// aapt resource value: 0x7F070075
+			public const int ActionMode_background = 2131165301;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -9345,8 +9466,8 @@ namespace Tourisum.Droid
 					2130968704,
 					2130968746};
 			
-			// aapt resource value: 0x7F080069
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131230825;
+			// aapt resource value: 0x7F070082
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131165314;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -9360,8 +9481,8 @@ namespace Tourisum.Droid
 					2130968828,
 					2130968829};
 			
-			// aapt resource value: 0x7F080072
-			public const int AlertDialog_android_layout = 2131230834;
+			// aapt resource value: 0x7F070085
+			public const int AlertDialog_android_layout = 2131165317;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -9392,14 +9513,14 @@ namespace Tourisum.Droid
 					2130968838,
 					2130968839};
 			
-			// aapt resource value: 0x7F080086
-			public const int AppBarLayoutStates_state_collapsed = 2131230854;
+			// aapt resource value: 0x7F070099
+			public const int AppBarLayoutStates_state_collapsed = 2131165337;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F080080
-			public const int AppBarLayout_android_background = 2131230848;
+			// aapt resource value: 0x7F070093
+			public const int AppBarLayout_android_background = 2131165331;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -9417,8 +9538,8 @@ namespace Tourisum.Droid
 					2130968765,
 					2130968766};
 			
-			// aapt resource value: 0x7F080089
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131230857;
+			// aapt resource value: 0x7F070102
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131165442;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -9429,8 +9550,8 @@ namespace Tourisum.Droid
 					2130968889,
 					2130968890};
 			
-			// aapt resource value: 0x7F080092
-			public const int AppCompatImageView_android_src = 2131230866;
+			// aapt resource value: 0x7F070105
+			public const int AppCompatImageView_android_src = 2131165445;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -9447,8 +9568,8 @@ namespace Tourisum.Droid
 					2130968887,
 					2130968888};
 			
-			// aapt resource value: 0x7F080097
-			public const int AppCompatSeekBar_android_thumb = 2131230871;
+			// aapt resource value: 0x7F070110
+			public const int AppCompatSeekBar_android_thumb = 2131165456;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -9468,8 +9589,8 @@ namespace Tourisum.Droid
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F080102
-			public const int AppCompatTextHelper_android_drawableBottom = 2131230978;
+			// aapt resource value: 0x7F070115
+			public const int AppCompatTextHelper_android_drawableBottom = 2131165461;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -9499,8 +9620,8 @@ namespace Tourisum.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F080110
-			public const int AppCompatTextView_android_textAppearance = 2131230992;
+			// aapt resource value: 0x7F070123
+			public const int AppCompatTextView_android_textAppearance = 2131165475;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -9644,8 +9765,8 @@ namespace Tourisum.Droid
 					2130968921,
 					2130968922};
 			
-			// aapt resource value: 0x7F080119
-			public const int AppCompatTheme_actionBarDivider = 2131231001;
+			// aapt resource value: 0x7F070132
+			public const int AppCompatTheme_actionBarDivider = 2131165490;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -10008,8 +10129,8 @@ namespace Tourisum.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F080239
-			public const int BottomNavigationView_elevation = 2131231289;
+			// aapt resource value: 0x7F070252
+			public const int BottomNavigationView_elevation = 2131165778;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -10028,8 +10149,8 @@ namespace Tourisum.Droid
 					2130968635,
 					2130968636};
 			
-			// aapt resource value: 0x7F080245
-			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131231301;
+			// aapt resource value: 0x7F070258
+			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131165784;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 1;
@@ -10040,8 +10161,8 @@ namespace Tourisum.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F080249
-			public const int ButtonBarLayout_allowStacking = 2131231305;
+			// aapt resource value: 0x7F070262
+			public const int ButtonBarLayout_allowStacking = 2131165794;
 			
 			public static int[] CardView = new int[] {
 					16843072,
@@ -10058,8 +10179,8 @@ namespace Tourisum.Droid
 					2130968586,
 					2130968587};
 			
-			// aapt resource value: 0x7F080552
-			public const int CardView_android_minHeight = 2131232082;
+			// aapt resource value: 0x7F070565
+			public const int CardView_android_minHeight = 2131166565;
 			
 			// aapt resource value: 0x1
 			public const int CardView_android_minWidth = 1;
@@ -10107,29 +10228,29 @@ namespace Tourisum.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F080004
-			public const int CirclePageIndicator_vpiCentered = 2131230724;
+			// aapt resource value: 0x7F070017
+			public const int CirclePageIndicator_vpiCentered = 2131165207;
 			
-			// aapt resource value: 0x7F080009
-			public const int CirclePageIndicator_vpiFillColor = 2131230729;
+			// aapt resource value: 0x7F070022
+			public const int CirclePageIndicator_vpiFillColor = 2131165218;
 			
-			// aapt resource value: 0x7F080006
-			public const int CirclePageIndicator_vpiOrientation = 2131230726;
+			// aapt resource value: 0x7F070019
+			public const int CirclePageIndicator_vpiOrientation = 2131165209;
 			
-			// aapt resource value: 0x7F080005
-			public const int CirclePageIndicator_vpiPageColor = 2131230725;
+			// aapt resource value: 0x7F070018
+			public const int CirclePageIndicator_vpiPageColor = 2131165208;
 			
-			// aapt resource value: 0x7F080008
-			public const int CirclePageIndicator_vpiRadius = 2131230728;
+			// aapt resource value: 0x7F070021
+			public const int CirclePageIndicator_vpiRadius = 2131165217;
 			
-			// aapt resource value: 0x7F080007
-			public const int CirclePageIndicator_vpiSnap = 2131230727;
+			// aapt resource value: 0x7F070020
+			public const int CirclePageIndicator_vpiSnap = 2131165216;
 			
-			// aapt resource value: 0x7F080010
-			public const int CirclePageIndicator_vpiStrokeColor = 2131230736;
+			// aapt resource value: 0x7F070023
+			public const int CirclePageIndicator_vpiStrokeColor = 2131165219;
 			
-			// aapt resource value: 0x7F080011
-			public const int CirclePageIndicator_vpiStrokeWidth = 2131230737;
+			// aapt resource value: 0x7F070024
+			public const int CirclePageIndicator_vpiStrokeWidth = 2131165220;
 			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130968658,
@@ -10149,8 +10270,8 @@ namespace Tourisum.Droid
 					2130968892,
 					2130968902};
 			
-			// aapt resource value: 0x7F080251
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131231313;
+			// aapt resource value: 0x7F070264
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131165796;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -10183,8 +10304,8 @@ namespace Tourisum.Droid
 					2130968760,
 					2130968761};
 			
-			// aapt resource value: 0x7F080268
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131231336;
+			// aapt resource value: 0x7F070281
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131165825;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -10212,8 +10333,8 @@ namespace Tourisum.Droid
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F080271
-			public const int ColorStateListItem_alpha = 2131231345;
+			// aapt resource value: 0x7F070284
+			public const int ColorStateListItem_alpha = 2131165828;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -10226,8 +10347,8 @@ namespace Tourisum.Droid
 					2130968650,
 					2130968651};
 			
-			// aapt resource value: 0x7F080275
-			public const int CompoundButton_android_button = 2131231349;
+			// aapt resource value: 0x7F070288
+			public const int CompoundButton_android_button = 2131165832;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -10239,8 +10360,8 @@ namespace Tourisum.Droid
 					2130968754,
 					2130968840};
 			
-			// aapt resource value: 0x7F080279
-			public const int CoordinatorLayout_keylines = 2131231353;
+			// aapt resource value: 0x7F070292
+			public const int CoordinatorLayout_keylines = 2131165842;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -10251,8 +10372,8 @@ namespace Tourisum.Droid
 					2130968763,
 					2130968764};
 			
-			// aapt resource value: 0x7F080282
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131231362;
+			// aapt resource value: 0x7F070295
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131165845;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -10280,8 +10401,8 @@ namespace Tourisum.Droid
 					2130968640,
 					2130968879};
 			
-			// aapt resource value: 0x7F080290
-			public const int DesignTheme_bottomSheetDialogTheme = 2131231376;
+			// aapt resource value: 0x7F070303
+			public const int DesignTheme_bottomSheetDialogTheme = 2131165955;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -10299,8 +10420,8 @@ namespace Tourisum.Droid
 					2130968831,
 					2130968882};
 			
-			// aapt resource value: 0x7F080294
-			public const int DrawerArrowToggle_arrowHeadLength = 2131231380;
+			// aapt resource value: 0x7F070307
+			public const int DrawerArrowToggle_arrowHeadLength = 2131165959;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -10333,8 +10454,8 @@ namespace Tourisum.Droid
 					2130968816,
 					2130968911};
 			
-			// aapt resource value: 0x7F080303
-			public const int FloatingActionButton_backgroundTint = 2131231491;
+			// aapt resource value: 0x7F070316
+			public const int FloatingActionButton_backgroundTint = 2131165974;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -10342,8 +10463,8 @@ namespace Tourisum.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F080312
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131231506;
+			// aapt resource value: 0x7F070325
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131165989;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -10379,8 +10500,8 @@ namespace Tourisum.Droid
 					2130968584,
 					2130968585};
 			
-			// aapt resource value: 0x7F080021
-			public const int FontFamilyFont_android_font = 2131230753;
+			// aapt resource value: 0x7F070034
+			public const int FontFamilyFont_android_font = 2131165236;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -10397,8 +10518,8 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x5
 			public const int FontFamilyFont_fontWeight = 5;
 			
-			// aapt resource value: 0x7F080014
-			public const int FontFamily_fontProviderAuthority = 2131230740;
+			// aapt resource value: 0x7F070027
+			public const int FontFamily_fontProviderAuthority = 2131165223;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -10420,8 +10541,8 @@ namespace Tourisum.Droid
 					16843264,
 					2130968729};
 			
-			// aapt resource value: 0x7F080314
-			public const int ForegroundLinearLayout_android_foreground = 2131231508;
+			// aapt resource value: 0x7F070327
+			public const int ForegroundLinearLayout_android_foreground = 2131165991;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -10440,8 +10561,8 @@ namespace Tourisum.Droid
 					2130968782,
 					2130968826};
 			
-			// aapt resource value: 0x7F080318
-			public const int LinearLayoutCompat_android_baselineAligned = 2131231512;
+			// aapt resource value: 0x7F070331
+			public const int LinearLayoutCompat_android_baselineAligned = 2131166001;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -10467,8 +10588,8 @@ namespace Tourisum.Droid
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F080328
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131231528;
+			// aapt resource value: 0x7F070341
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131166017;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -10489,8 +10610,8 @@ namespace Tourisum.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F080333
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131231539;
+			// aapt resource value: 0x7F070346
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131166022;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -10501,8 +10622,8 @@ namespace Tourisum.Droid
 					2130968688,
 					2130968732};
 			
-			// aapt resource value: 0x7F080566
-			public const int MediaRouteButton_android_minHeight = 2131232102;
+			// aapt resource value: 0x7F070579
+			public const int MediaRouteButton_android_minHeight = 2131166585;
 			
 			// aapt resource value: 0x1
 			public const int MediaRouteButton_android_minWidth = 1;
@@ -10521,8 +10642,8 @@ namespace Tourisum.Droid
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F080336
-			public const int MenuGroup_android_checkableBehavior = 2131231542;
+			// aapt resource value: 0x7F070349
+			public const int MenuGroup_android_checkableBehavior = 2131166025;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -10564,8 +10685,8 @@ namespace Tourisum.Droid
 					2130968825,
 					2130968907};
 			
-			// aapt resource value: 0x7F080343
-			public const int MenuItem_actionLayout = 2131231555;
+			// aapt resource value: 0x7F070356
+			public const int MenuItem_actionLayout = 2131166038;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -10644,8 +10765,8 @@ namespace Tourisum.Droid
 					2130968805,
 					2130968842};
 			
-			// aapt resource value: 0x7F080367
-			public const int MenuView_android_headerBackground = 2131231591;
+			// aapt resource value: 0x7F070380
+			public const int MenuView_android_headerBackground = 2131166080;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -10683,8 +10804,8 @@ namespace Tourisum.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F080377
-			public const int NavigationView_android_background = 2131231607;
+			// aapt resource value: 0x7F070390
+			public const int NavigationView_android_background = 2131166096;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -10721,11 +10842,11 @@ namespace Tourisum.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968837};
 			
-			// aapt resource value: 0x7F080392
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131231634;
+			// aapt resource value: 0x7F070405
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131166213;
 			
-			// aapt resource value: 0x7F080388
-			public const int PopupWindow_android_popupAnimationStyle = 2131231624;
+			// aapt resource value: 0x7F070401
+			public const int PopupWindow_android_popupAnimationStyle = 2131166209;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -10733,12 +10854,62 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x2
 			public const int PopupWindow_overlapAnchor = 2;
 			
+			public static int[] ProgressWheel = new int[] {
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0};
+			
+			// aapt resource value: 0x7F070005
+			public const int ProgressWheel_ahBarColor = 2131165189;
+			
+			// aapt resource value: 0x7F070013
+			public const int ProgressWheel_ahBarLength = 2131165203;
+			
+			// aapt resource value: 0x7F070012
+			public const int ProgressWheel_ahBarWidth = 2131165202;
+			
+			// aapt resource value: 0x7F070010
+			public const int ProgressWheel_ahCircleColor = 2131165200;
+			
+			// aapt resource value: 0x7F070009
+			public const int ProgressWheel_ahDelayMillis = 2131165193;
+			
+			// aapt resource value: 0x7F070011
+			public const int ProgressWheel_ahRadius = 2131165201;
+			
+			// aapt resource value: 0x7F070006
+			public const int ProgressWheel_ahRimColor = 2131165190;
+			
+			// aapt resource value: 0x7F070007
+			public const int ProgressWheel_ahRimWidth = 2131165191;
+			
+			// aapt resource value: 0x7F070008
+			public const int ProgressWheel_ahSpinSpeed = 2131165192;
+			
+			// aapt resource value: 0x7F070002
+			public const int ProgressWheel_ahText = 2131165186;
+			
+			// aapt resource value: 0x7F070003
+			public const int ProgressWheel_ahTextColor = 2131165187;
+			
+			// aapt resource value: 0x7F070004
+			public const int ProgressWheel_ahTextSize = 2131165188;
+			
 			public static int[] RecycleListView = new int[] {
 					2130968790,
 					2130968793};
 			
-			// aapt resource value: 0x7F080394
-			public const int RecycleListView_paddingBottomNoButtons = 2131231636;
+			// aapt resource value: 0x7F070407
+			public const int RecycleListView_paddingBottomNoButtons = 2131166215;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -10756,8 +10927,8 @@ namespace Tourisum.Droid
 					2130968830,
 					2130968836};
 			
-			// aapt resource value: 0x7F080397
-			public const int RecyclerView_android_descendantFocusability = 2131231639;
+			// aapt resource value: 0x7F070410
+			public const int RecyclerView_android_descendantFocusability = 2131166224;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -10792,14 +10963,14 @@ namespace Tourisum.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968747};
 			
-			// aapt resource value: 0x7F080409
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131231753;
+			// aapt resource value: 0x7F070422
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131166242;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968634};
 			
-			// aapt resource value: 0x7F080411
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131231761;
+			// aapt resource value: 0x7F070424
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131166244;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -10820,8 +10991,8 @@ namespace Tourisum.Droid
 					2130968848,
 					2130968912};
 			
-			// aapt resource value: 0x7F080413
-			public const int SearchView_android_focusable = 2131231763;
+			// aapt resource value: 0x7F070426
+			public const int SearchView_android_focusable = 2131166246;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -10876,8 +11047,8 @@ namespace Tourisum.Droid
 					2130968701,
 					2130968780};
 			
-			// aapt resource value: 0x7F080431
-			public const int SnackbarLayout_android_maxWidth = 2131231793;
+			// aapt resource value: 0x7F070444
+			public const int SnackbarLayout_android_maxWidth = 2131166276;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -10892,8 +11063,8 @@ namespace Tourisum.Droid
 					16843131,
 					2130968803};
 			
-			// aapt resource value: 0x7F080435
-			public const int Spinner_android_dropDownWidth = 2131231797;
+			// aapt resource value: 0x7F070448
+			public const int Spinner_android_dropDownWidth = 2131166280;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -10923,8 +11094,8 @@ namespace Tourisum.Droid
 					2130968909,
 					2130968910};
 			
-			// aapt resource value: 0x7F080441
-			public const int SwitchCompat_android_textOff = 2131231809;
+			// aapt resource value: 0x7F070454
+			public const int SwitchCompat_android_textOff = 2131166292;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -10970,8 +11141,8 @@ namespace Tourisum.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F080456
-			public const int TabItem_android_icon = 2131231830;
+			// aapt resource value: 0x7F070469
+			public const int TabItem_android_icon = 2131166313;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -10997,8 +11168,8 @@ namespace Tourisum.Droid
 					2130968867,
 					2130968868};
 			
-			// aapt resource value: 0x7F080460
-			public const int TabLayout_tabBackground = 2131231840;
+			// aapt resource value: 0x7F070473
+			public const int TabLayout_tabBackground = 2131166323;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -11060,8 +11231,8 @@ namespace Tourisum.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F080477
-			public const int TextAppearance_android_fontFamily = 2131231863;
+			// aapt resource value: 0x7F070490
+			public const int TextAppearance_android_fontFamily = 2131166352;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -11117,8 +11288,8 @@ namespace Tourisum.Droid
 					2130968800,
 					2130968801};
 			
-			// aapt resource value: 0x7F080491
-			public const int TextInputLayout_android_hint = 2131231889;
+			// aapt resource value: 0x7F070504
+			public const int TextInputLayout_android_hint = 2131166468;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -11196,8 +11367,8 @@ namespace Tourisum.Droid
 					2130968899,
 					2130968900};
 			
-			// aapt resource value: 0x7F080508
-			public const int Toolbar_android_gravity = 2131232008;
+			// aapt resource value: 0x7F070521
+			public const int Toolbar_android_gravity = 2131166497;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -11295,8 +11466,8 @@ namespace Tourisum.Droid
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F080544
-			public const int ViewBackgroundHelper_android_background = 2131232068;
+			// aapt resource value: 0x7F070557
+			public const int ViewBackgroundHelper_android_background = 2131166551;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -11307,16 +11478,16 @@ namespace Tourisum.Droid
 			public static int[] ViewPagerIndicator = new int[] {
 					0};
 			
-			// aapt resource value: 0x7F080002
-			public const int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 2131230722;
+			// aapt resource value: 0x7F070015
+			public const int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 2131165205;
 			
 			public static int[] ViewStubCompat = new int[] {
 					16842960,
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F080548
-			public const int ViewStubCompat_android_id = 2131232072;
+			// aapt resource value: 0x7F070561
+			public const int ViewStubCompat_android_id = 2131166561;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -11324,8 +11495,8 @@ namespace Tourisum.Droid
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F080538
-			public const int View_android_focusable = 2131232056;
+			// aapt resource value: 0x7F070551
+			public const int View_android_focusable = 2131166545;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;

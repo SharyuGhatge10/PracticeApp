@@ -11,7 +11,8 @@
 namespace Tourisum {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Sharyu A and D\\Tourisum\\Tourisum\\Tourisum\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\sharyu ghatge\\Desktop\\GitHub\\PracticeApp\\PracticeApp\\Tourisum\\Tourisum\\T" +
+        "ourisum\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

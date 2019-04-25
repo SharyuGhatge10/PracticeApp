@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tourisum.View.ProfilePage">
+    <ContentPage.Content>
+        <StackLayout Margin="10,10,10,10">
+            <Label Text="Full Name" />
+            <Entry x:Name="FullName" 
+                       Text="{Binding ProfileName}"/>
+
+            <Label Text="Gender" />
+            <Picker Title="Select gender" ><!--SelectedItem="{Binding RegisterGender}" >-->
+                <Picker.Items>
+                    <x:String>Male</x:String>
+                    <x:String>Female</x:String>
+                    <x:String>Others</x:String>
+                    <x:String>None</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="Date Of Birth" />
+            <DatePicker  x:Name="dob"
+                         Date="{Binding registerDOB , Mode=TwoWay}"/>
+
+
+            <Label Text="Email" />
+            <Entry x:Name="Email" 
+                       Text="{Binding ProfileEmail}"/>
+
+            <Label Text="Phone Number" />
+            <Entry x:Name="PhoneNumber" 
+                       Text="{Binding ProfilePhoneNumber}"/>
+
+            <Label Text="Password" />
+            <Entry x:Name="Password" 
+                       Text="{Binding ProfilePassword}"/>
+
+            <Label Text="Change Password"/>
+            <Label Text="Old Password"/>
+            <Entry x:Name="OldPassword" 
+                       Text="{Binding ProfileOLdPassword}"/>
+
+            <Label Text="Confirm Password" />
+            <Entry x:Name="ConfirmPassword" 
+                       Text="{Binding ProfileNewPassword}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

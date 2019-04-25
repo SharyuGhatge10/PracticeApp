@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using System.Threading.Tasks;
-
+using Tourisum.Model;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,25 +12,17 @@ namespace Tourisum.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class HomePage : MasterDetailPage
     {
+        private readonly UserDetails userDetails;
+        
         public HomePage()
         {
             InitializeComponent();
-            MasterPage.ListView.ItemSelected += ListView_ItemSelected;
+            //MasterPage.ListView.ItemSelected += ListView_ItemSelected;
         }
-
-        private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        public HomePage(UserDetails userDetails ): this()
         {
-            var item = e.SelectedItem as HomePageMenuItem;
-            if (item == null)
-                return;
-
-            var page = (Page)Activator.CreateInstance(item.TargetType);
-            page.Title = item.Title;
-
-            Detail = new NavigationPage(page);
-            IsPresented = false;
-
-            MasterPage.ListView.SelectedItem = null;
+            this.userDetails = userDetails;
+            MasterPage.Init(userDetails);
         }
     }
 }
